@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#structure{
+    height: 100vh;
+    background-color: #181527
+}
+#structure-2{
+    display: flex;
+    height: 90vh;
+}
+/* .........Nav styling............. */
+#nav-bar{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(14, 3, 53);
+    color: aliceblue;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+
+}
+#logo_title{
+    display: flex;
+    font-size: 1.2rem;
+   width: 30%;
+   /* border: 2px solid red; */
+}
+#logo_title img{
+    height: 50px;
+    width: 60px;
+    margin-right: 30px;
+    
+}
+#reminder-head{
+    display: flex;
+    align-items: center;
+}
+#reminder-head-img img{
+    height: 50px;
+    margin-right: 20px;
+}
+#nav-details{
+    /* border: 2px solid green; */
+    display: flex;
+   align-items: center;
+   width: 65%;
+   justify-content: space-around;
+}
+#nav-details a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: lightgrey;
+}
+#nav-details a:hover{
+    text-decoration: underline;
+    color: #f0f9ff;
+}
+#profile{
+    display: flex;
+    align-items: center;
+}
+#profile img{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+
+/* ......................MAIN.................................. */
+
+main{
+    height: 90vh;
+    width: 60%;
+    overflow-y: auto;
+    /* border: 2px solid green; */
+    padding: 0px 5%;
+}
+main::-webkit-scrollbar{
+    display: none;
+}
+#heading-med{
+    color: floralwhite;
+    font-size: 2.3rem;
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+i{
+    cursor: pointer;
+}
+.medicines{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+    background-color: #0e112e;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.medicine-img img{
+height: 120px;
+border-radius: 20px;
+}
+.medicine-detail-rows{
+display: flex;
+flex-direction: column;
+width: 80%
+}
+.medicine-detail-row1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: #f0f9ff;
+    margin-bottom: 10px;
+    padding: 15px 0px;
+}
+.medicine-detail-row2{
+    display: flex;
+    justify-content: space-around;
+}
+.take-days{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.weekdays{
+    background-color: rgb(5, 47, 47);
+    padding: 0px 5px;
+    color: #f0f9ff;
+}
+.meal-detail{
+    color: #f0f9ff;
+    background-color: rgb(5, 47, 47);
+    padding: 0px 10px;
+}
+
+/* .........................Aside.............................. */
+aside{
+    height: 90vh;
+    width: 40%;
+    /* border: 2px solid green; */
+    overflow-y: auto;
+}
+aside::-webkit-scrollbar{
+    display: none;
+}
+#add-new-reminder-head{
+    display: flex;
+    font-size: 2.1rem;
+    justify-content: center;
+    color: #f0f9ff;
+    margin-top: 15px;
+}
+#add-new-reminder-data{
+    padding: 0px 20px;
+}
+#add-new-reminder-data form{
+    display: flex;
+    flex-direction: column;
+}
+.add-new-data{
+    margin:10px 0px;
+}
+.add-new-label{
+    font-size: 25px;
+    color:#b0aeb0;
+}
+#add-new-medicine-name{
+    padding: 8px 10px;
+    background: #a39494;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 49%;
+}
+#add-new-medicine-take-time{
+    background-color: #a39494;
+    border: none;
+    font-size: 1.3rem;
+    margin-left: 45px;
+    padding: 3px;
+}
+.add-new-medicine-label-imp{
+    font-size: 1.5rem;
+    color: lightcyan;
+}
+.add-new-radios{
+    margin-right: 20px;
+}
+#btn-class{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    width: 30%;
+    padding: 7px 10px;
+    border: none;
+    background-color: #cbad87;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}

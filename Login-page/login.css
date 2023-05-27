@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#070722
+}
+#logo-title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#logo-title img{
+    height: 40vh;
+}
+#logo-title h2{
+    font-size: 3rem;
+    color: aqua;
+}
+#form-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-label{
+    margin-top: 15px;
+    font-size: 1.6rem;
+    color: #545b61;
+}
+.login-input{
+    width: 20rem;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: aliceblue;
+}
+#btn{
+    padding: 5px 5px;
+    font-size: 1.4rem;
+    background-color: #545b61;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+border: 2px solid rgb(18, 0, 181);
+}
