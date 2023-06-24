@@ -85,7 +85,9 @@ Discription : So this is how our website looks . user can open our website and s
   <img width="960" alt="image" src="https://github.com/Sachng13/HealthMate-kratin-assignment_project/assets/132441441/5542ab8d-30f1-45ca-bce8-3c583a13acb6">
   <br>
   <h2>Way To Use </h2>
-  We just have to open the index.html file .Everything is linked with it. <br>
+click on below 👇 link <br>
+https://sachng13.github.io/HealthMate-kratin-assignment_project/
+<br>
     <b> THANK YOU !</b>
 
 
