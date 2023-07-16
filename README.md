@@ -86,7 +86,7 @@ Discription : So this is how our website looks . user can open our website and s
   <br>
   <h2>Way To Use </h2>
 click on below 👇 link <br>
-https://sachng13.github.io/HealthMate_project
+https://sachng13.github.io/HealthMate_Project/
 <br>
     <b> THANK YOU !</b>
 
