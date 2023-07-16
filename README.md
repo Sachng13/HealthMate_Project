@@ -1,9 +1,9 @@
-# HealthMate-kratin-assignment_project
+# HealthMate_Project
 Created with CodeSandbox
 
 <h1>Problem Statement</h1>
 <br>
-<img width="600" alt="image" src="https://github.com/Sachng13/HealthMate-kratin-assignment_project/assets/132441441/5b650198-a1dd-43c6-9232-8070c6783cdb">
+<img width="597" alt="Screenshot 2023-05-27 115247" src="https://github.com/Sachng13/HealthMate_Project/assets/132441441/65679642-3b6b-4437-97c1-394a0f9f217f">
 
 <h2>Technology Used :</h2>
 <ul>
